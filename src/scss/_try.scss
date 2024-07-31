@@ -1,0 +1,27 @@
+@import "_variables";
+
+.try-bg {
+  background: url("/public/img/section4bg.png") center / cover no-repeat;
+}
+.try {
+  padding: 285px 0;
+
+}
+.try__text {
+  text-align: center;
+}
+.try__title {
+  color: $color-white;
+  font-size: 54px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.try__link {
+  background: $color-blue;
+  color: $color-white;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 16px;
+  line-height: 24px;
+}

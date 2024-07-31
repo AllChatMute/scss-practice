@@ -1,0 +1,53 @@
+@import "_variables";
+
+.footer {
+  padding: 60px 10px;
+  background: $color-dark;
+}
+.footer__link-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  row-gap: 15px;
+}
+.footer__nav {
+}
+.footer__ul {
+}
+.footer__list {
+}
+.footer__list-link1 {
+  color: $color-white;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.footer__list-link {
+  color: #A6A8AD;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.footer__terms{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  row-gap: 10px;
+  span{
+    color: #A6A8AD;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.footer__img{
+  height: 16px;
+  width: 16px;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
