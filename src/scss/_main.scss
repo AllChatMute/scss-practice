@@ -1,4 +1,4 @@
-@import "_header","_get","_playground","_catalog";
+@import "_header","_get","_playground","_catalog","_creators";
 @import "_variables";
 .container{
   max-width: 1200px;
@@ -20,6 +20,9 @@
   .catalog__card-content{
     margin-bottom: 50px;
   }
+  .creators__title{
+    text-align: center;
+  }
 }
 
 @media (max-width:800px){
@@ -40,6 +43,9 @@
   }
   .catalog{
     padding: 20px;
+  }
+  .creators__cards{
+    gap: 50px;
   }
 }
 
@@ -83,5 +89,15 @@
   }
   .catalog__description{
     font-size: 14px;
+  }
+  .catalog__card-content{
+    text-align: center;
+  }
+  .catalog__btn{
+    width: 80%;
+  }
+  .creators__title{
+    font-size: 24px;
+    font-weight: 500;
   }
 }
