@@ -1,4 +1,4 @@
-@import "_header","_get","_playground";
+@import "_header","_get","_playground","_catalog";
 @import "_variables";
 .container{
   max-width: 1200px;
@@ -7,6 +7,19 @@
 
 .main{
   background: $color-dark;
+}
+@media (max-width:1000px){
+  .catalog__card{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .catalog__card-reverse{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .catalog__card-content{
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width:800px){
@@ -21,6 +34,12 @@
   .get__content{
     flex-direction: column;
     gap: 5px;
+  }
+  .playground__content{
+    padding: 20px;
+  }
+  .catalog{
+    padding: 20px;
   }
 }
 
@@ -57,5 +76,12 @@
   .playground__link{
     width: 80%;
     border-radius: 15px;
+  }
+  .catalog__title{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .catalog__description{
+    font-size: 14px;
   }
 }
