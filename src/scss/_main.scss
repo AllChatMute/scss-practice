@@ -1,8 +1,12 @@
-@import "_header.scss";
-
+@import "_header","_get","_playground";
+@import "_variables";
 .container{
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.main{
+  background: $color-dark;
 }
 
 @media (max-width:800px){
@@ -13,6 +17,10 @@
   }
   .header__nav{
     flex-wrap: wrap;
+  }
+  .get__content{
+    flex-direction: column;
+    gap: 5px;
   }
 }
 
@@ -26,5 +34,28 @@
     a{
       font-size: 14px;
     }
+  }
+  .get__text{
+    font-size: 14px;
+  }
+  .get__link{
+    font-size: 14px;
+  }
+  .playground__content{
+    text-align: center;
+  }
+  .playground__title{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+  .playground__description{
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .playground__link{
+    width: 80%;
+    border-radius: 15px;
   }
 }
